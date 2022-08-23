@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Deletar Registro</h1>
+<div mat-dialog-content>
+    Tem certeza que deseja excluir {{data.name}}?
+</div>
+<div mat-dialog-actions>
+    <button class="delete" mat-button mat-dialog-close (click)="delete(data.id)" cdkFocusInitial>Sim</button>
+    <button mat-button mat-dialog-close>Não</button>
+</div>
